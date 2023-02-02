@@ -1,0 +1,22 @@
+.navbar {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar .links {
+  display: flex;
+}
+
+.logo {
+  margin-left: 10px;
+}

@@ -6,25 +6,25 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         {" "}
-        <img src="logo.png" alt="Logo" />
+        <img src="Logo.png" alt=" Logo de Carites Marketing" />
       </div>
       <div>
         <ul>
-          <li>
-            <a href="#">Servicios</a>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Servicios</a>
+            <div class="dropdown-content">
+              <a href="#">Auditoria Digital</a>
+              <a href="#">Identidad Visual</a>
+              <a href="#">Asesorias</a>
+              <a href="#">Redes Sociales</a>
+              <a href="#">Publicidad Online</a>
+              <a href="#">Diseño</a>
+            </div>
           </li>
-          <li>
-            <a href="#">Testimonios</a>
-          </li>
-          <li>
-            <a href="#">Cursos</a>
-          </li>
-          <li>
-            <a href="#">Recursos</a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
+          <li><a href="#home">Testimonios</a></li>
+          <li><a href="#news">Recursos</a></li>
+          <li><a href="#news">Contactanos</a></li>
+
         </ul>
       </div>
     </div>

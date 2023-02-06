@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./form_mail.css";
 
 const FormMail = () => {
   const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ const FormMail = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="formulario">
       <div>
         <label htmlFor="name">Nombre:</label>
         <input
@@ -67,4 +68,4 @@ const FormMail = () => {
   );
 };
 
-export { FormMail };
+export default FormMail;

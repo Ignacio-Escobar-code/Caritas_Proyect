@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./suscribe_mail.css";
 
 const SubscribeForm = () => {
   const [email, setEmail] = useState("");
@@ -10,7 +11,7 @@ const SubscribeForm = () => {
   };
 
   return (
-    <div>
+    <div className="suscribe">
       <div>Quiero recibir info</div>
       <div>
         <form onSubmit={handleSubmit}>

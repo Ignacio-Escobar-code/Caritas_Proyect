@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -12,20 +11,27 @@ const Navbar = () => {
       <div>
         <ul>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Servicios</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              Servicios
+            </a>
             <div class="dropdown-content">
-              <a href="#">Auditoria Digital</a>
-              <a href="#">Identidad Visual</a>
-              <a href="#">Asesorias</a>
-              <a href="#">Redes Sociales</a>
-              <a href="#">Publicidad Online</a>
-              <a href="#">Diseño</a>
+              <a href="/auditoria">Auditoria Digital</a>
+              <a href="/identidad">Identidad Visual</a>
+              <a href="/asesorias">Asesorias</a>
+              <a href="/redes">Redes Sociales</a>
+              <a href="/publicidad">Publicidad Online</a>
+              <a href="diseño">Diseño</a>
             </div>
           </li>
-          <li><a href="#home">Testimonios</a></li>
-          <li><a href="#news">Recursos</a></li>
-          <li><a href="#news">Contactanos</a></li>
-
+          <li>
+            <a href="/">Testimonios</a>
+          </li>
+          <li>
+            <a href="/recursos">Recursos</a>
+          </li>
+          <li>
+            <a href="/contacto">Contactanos</a>
+          </li>
         </ul>
       </div>
     </div>

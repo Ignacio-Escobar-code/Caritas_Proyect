@@ -6,7 +6,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         {" "}
-        <img src="Logo.png" alt=" Logo de Carites Marketing" />
+        <a href="/">
+          <img src="Logo.png" alt=" Logo de Carites Marketing" />
+        </a>
       </div>
       <div>
         <ul>

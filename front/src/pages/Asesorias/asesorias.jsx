@@ -62,6 +62,51 @@ const Asesorias = () => {
         <p>descloren lcdllr</p>
         <button type="submit">Agenda tu asesoria</button>
       </div>
+      <div>
+        <h3>Auditoria de tus redes sociales</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque porro
+          cum dolores similique! Rem temporibus velit error enim rerum?
+          Consequatur accusamus ratione voluptates magnam eos esse temporibus,
+          dolorem doloremque dignissimos?
+        </p>
+      </div>
+      <div>
+        <h3>Imagen de tu marca</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque porro
+          cum dolores similique! Rem temporibus velit error enim rerum?
+          Consequatur accusamus ratione voluptates magnam eos esse temporibus,
+          dolorem doloremque dignissimos?
+        </p>
+      </div>
+      <div>
+        <h3>Creá tu estrategia de redes sociales</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque porro
+          cum dolores similique! Rem temporibus velit error enim rerum?
+          Consequatur accusamus ratione voluptates magnam eos esse temporibus,
+          dolorem doloremque dignissimos?
+        </p>
+      </div>
+      <div>
+        <h3>Sinergia</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque porro
+          cum dolores similique! Rem temporibus velit error enim rerum?
+          Consequatur accusamus ratione voluptates magnam eos esse temporibus,
+          dolorem doloremque dignissimos?
+        </p>
+      </div>
+      <div>
+        <h2>Hola, soy Nat!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad
+          beatae explicabo sed alias sint. Similique cupiditate iure natus quam
+          eligendi voluptate ipsam, perferendis ad nam ducimus facilis neque
+          nihil.
+        </p>
+      </div>
     </>
   );
 };

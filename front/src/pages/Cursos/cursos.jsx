@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cursos = () => {
-  return <div></div>;
+  return <h1>Hola soy lo curso vite</h1>;
 };
 
 export default Cursos;

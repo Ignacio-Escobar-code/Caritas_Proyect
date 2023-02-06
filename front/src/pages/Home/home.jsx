@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "../../components/Navbar/navbar";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <>
       <div>
         <h1>Buscas una agencia de Marketing?</h1>
         <button type="submit">SOLICITA MAS INFO</button>
@@ -16,7 +14,7 @@ const Home = () => {
           y el momento adecuado
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

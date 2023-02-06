@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../../components/Navbar/navbar";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
+      <Navbar />
       <div>
         <h1>Buscas una agencia de Marketing?</h1>
         <button type="submit">SOLICITA MAS INFO</button>
@@ -18,4 +20,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

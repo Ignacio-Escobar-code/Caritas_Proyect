@@ -1,7 +1,7 @@
 import React from "react";
 
-const auditoria = () => {
+const Auditoria = () => {
   return <div></div>;
 };
 
-export default auditoria;
+export default Auditoria;

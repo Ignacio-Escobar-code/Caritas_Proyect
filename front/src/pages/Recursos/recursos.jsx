@@ -1,7 +1,7 @@
 import React from "react";
 
-const recursos = () => {
+const Recursos = () => {
   return <div></div>;
 };
 
-export default recursos;
+export default Recursos;

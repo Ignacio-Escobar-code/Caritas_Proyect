@@ -1,7 +1,7 @@
 import React from "react";
 
-const diseño = () => {
+const Diseño = () => {
   return <div></div>;
 };
 
-export default diseño;
+export default Diseño;

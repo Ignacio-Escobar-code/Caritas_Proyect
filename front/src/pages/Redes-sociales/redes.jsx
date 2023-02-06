@@ -1,7 +1,7 @@
 import React from "react";
 
-const redesSociales = () => {
+const RedesSociales = () => {
   return <div></div>;
 };
 
-export default redesSociales;
+export default RedesSociales;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const cursos = () => {
-  return <div></div>;
+const Cursos = () => {
+  return <h1>Hola soy lo curso vite</h1>;
 };
 
-export default cursos;
+export default Cursos;

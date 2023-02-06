@@ -1,7 +1,7 @@
 import React from "react";
 
-const identidadVisual = () => {
+const IdentidadVisual = () => {
   return <div></div>;
 };
 
-export default identidadVisual;
+export default IdentidadVisual;

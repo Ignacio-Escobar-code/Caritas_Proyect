@@ -1,7 +1,7 @@
 import React from "react";
 
-const auditoria = () => {
-  return <div></div>;
+const Auditoria = () => {
+  return <h1>Hola Soy la Auditoria</h1>;
 };
 
-export default auditoria;
+export default Auditoria;

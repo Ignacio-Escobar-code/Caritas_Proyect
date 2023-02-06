@@ -1,7 +1,7 @@
 import React from "react";
 
-const publicidadOnline = () => {
+const PublicidadOnline = () => {
   return <div></div>;
 };
 
-export default publicidadOnline;
+export default PublicidadOnline;

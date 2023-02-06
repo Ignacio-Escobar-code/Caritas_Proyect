@@ -1,8 +1,8 @@
 import React from "react";
 
-const home = () => {
+const Home = () => {
   return (
-    <div>
+    <>
       <div>
         <h1>Buscas una agencia de Marketing?</h1>
         <button type="submit">SOLICITA MAS INFO</button>
@@ -14,8 +14,8 @@ const home = () => {
           y el momento adecuado
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default home;
+export default Home;

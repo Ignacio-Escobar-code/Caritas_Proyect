@@ -1,4 +1,4 @@
-.suscribe {
+/* .suscribe {
   background-color: #3b5049;
   display: flex;
   justify-content: space-between;
@@ -29,6 +29,7 @@
   color: white;
   border: 1px solid white;
   border-radius: 0px;
+  width: 300px;
   height: 30px;
   margin-left: 20px;
   transition: all 0.2s;
@@ -37,4 +38,4 @@
 .btnSuscribe:active {
   transform: translateY(2px);
   border-width: 2px;
-}
+} */

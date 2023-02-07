@@ -1,10 +1,11 @@
 .bloqueForm {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: #a6b8a8;
-  height: 300px;
-  padding: 20px;
+  align-content: center;
+  background: #a6b8a8;
 }
 
 .logoFooter {
@@ -69,4 +70,6 @@
   position: absolute;
   margin-top: 130px;
   background-color: transparent;
+.rowForm {
+  flex-direction: row;
 }

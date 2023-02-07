@@ -3,11 +3,11 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="homeSection1">
         <h1>Buscas una agencia de Marketing?</h1>
         <button type="submit">SOLICITA MAS INFO</button>
       </div>
-      <div>
+      <div className="homeSection2">
         <h2>La fórmula para triunfar en el marqueting digital</h2>
         <p>
           Se basa en entender a tus clientes potenciales en el formato correcto

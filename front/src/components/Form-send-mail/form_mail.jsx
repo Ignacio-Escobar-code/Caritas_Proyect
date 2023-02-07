@@ -25,7 +25,7 @@ const FormMail = () => {
   return (
     <div className="bloqueForm">
       <form onSubmit={handleSubmit}>
-        <div className="logo">
+        <div className="logoFooter">
           {" "}
           <a href="/">
             <img

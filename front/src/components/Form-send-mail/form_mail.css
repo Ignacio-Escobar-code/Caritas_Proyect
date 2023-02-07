@@ -1,72 +1,13 @@
 .bloqueForm {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: #a6b8a8;
-  height: 300px;
-  padding: 20px;
+  align-content: center;
+  background: #a6b8a8;
 }
 
-.logo {
-  width: 100%;
-  position: absolute;
-  margin-left: -400px;
-  margin-top: 5px;
-}
-
-.nameForm {
-  position: absolute;
-  margin-top: -90px;
-}
-
-.mailForm {
-  position: absolute;
-  margin-top: -90px;
-  margin-left: 210px;
-}
-
-.labelName {
-  position: absolute;
-  margin-top: -20px;
-}
-
-.inputData {
-  width: 200px;
-  height: 20px;
-}
-
-.labelEmail {
-  position: absolute;
-  margin-top: -20px;
-}
-
-.paisForm {
-  position: absolute;
-  margin-top: -30px;
-}
-
-.labelPais {
-  position: absolute;
-  margin-top: -20px;
-}
-
-.textLabel {
-  position: absolute;
-  margin-top: -20px;
-}
-
-.textForm {
-  position: absolute;
-  margin-top: 20px;
-}
-
-.inputText {
-  width: 410px;
-  height: 100px;
-}
-
-.btnForm {
-  position: absolute;
-  margin-top: 130px;
-  background-color: transparent;
+.rowForm {
+  flex-direction: row;
 }

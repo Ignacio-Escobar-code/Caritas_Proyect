@@ -24,8 +24,8 @@ const FormMail = () => {
 
   return (
     <div className="bloqueForm">
-      <form onSubmit={handleSubmit}>
-        <div className="logo">
+      <div className="rowLogoRedes">
+        <div className="logoFooter">
           {" "}
           <a href="/">
             <img
@@ -35,61 +35,65 @@ const FormMail = () => {
             />
           </a>
         </div>
-        <div className="nameForm">
-          <label htmlFor="name" className="labelName">
-            Nombre*
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="inputData"
-            value={formData.name}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="mailForm">
-          <label htmlFor="email" className="labelEmail">
-            Email*
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className="inputData"
-            value={formData.email}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="paisForm">
-          <label htmlFor="country" className="labelPais">
-            País*:
-          </label>
-          <input
-            type="text"
-            id="country"
-            name="country"
-            className="inputData"
-            value={formData.country}
-            onChange={handleInputChange}
-          />
-        </div>
-        <div className="textForm">
-          <label htmlFor="message" className="textLabel">
-            ¿En que puedo ayudarte?*
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            className="inputText"
-            value={formData.message}
-            onChange={handleInputChange}
-          />
-        </div>
-        <button className="btnForm" type="submit">
-          Enviar
-        </button>
-      </form>
+      </div>
+      <div className="rowForm">
+        <form onSubmit={handleSubmit}>
+          <div className="nameForm">
+            <label htmlFor="name" className="labelName">
+              Nombre*
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="inputData"
+              value={formData.name}
+              onChange={handleInputChange}
+            />
+          </div>
+          <div className="mailForm">
+            <label htmlFor="email" className="labelEmail">
+              Email*
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="inputData"
+              value={formData.email}
+              onChange={handleInputChange}
+            />
+          </div>
+          <div className="paisForm">
+            <label htmlFor="country" className="labelPais">
+              País*:
+            </label>
+            <input
+              type="text"
+              id="country"
+              name="country"
+              className="inputData"
+              value={formData.country}
+              onChange={handleInputChange}
+            />
+          </div>
+          <div className="textForm">
+            <label htmlFor="message" className="textLabel">
+              ¿En que puedo ayudarte?*
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              className="inputText"
+              value={formData.message}
+              onChange={handleInputChange}
+            />
+          </div>
+          <button className="btnForm" type="submit">
+            Enviar
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

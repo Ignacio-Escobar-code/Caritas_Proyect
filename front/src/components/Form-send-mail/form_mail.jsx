@@ -23,56 +23,74 @@ const FormMail = () => {
   };
 
   return (
-    <>
-      <form onSubmit={handleSubmit} className="formulario">
+    <div className="bloqueForm">
+      <form onSubmit={handleSubmit}>
         <div className="logo">
           {" "}
           <a href="/">
-            <img src="Logo.png" alt=" Logo de Carites Marketing" />
+            <img
+              src="Logo-black.png"
+              alt=" Logo de Carites Marketing"
+              className="imgLogo"
+            />
           </a>
         </div>
-        <div>
-          <label htmlFor="name">Nombre:</label>
+        <div className="nameForm">
+          <label htmlFor="name" className="labelName">
+            Nombre*
+          </label>
           <input
             type="text"
             id="name"
             name="name"
+            className="inputData"
             value={formData.name}
             onChange={handleInputChange}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
+        <div className="mailForm">
+          <label htmlFor="email" className="labelEmail">
+            Email*
+          </label>
           <input
             type="email"
             id="email"
             name="email"
+            className="inputData"
             value={formData.email}
             onChange={handleInputChange}
           />
         </div>
-        <div>
-          <label htmlFor="country">País:</label>
+        <div className="paisForm">
+          <label htmlFor="country" className="labelPais">
+            País*:
+          </label>
           <input
             type="text"
             id="country"
             name="country"
+            className="inputData"
             value={formData.country}
             onChange={handleInputChange}
           />
         </div>
-        <div>
-          <label htmlFor="message">Mensaje:</label>
+        <div className="textForm">
+          <label htmlFor="message" className="textLabel">
+            ¿En que puedo ayudarte?*
+          </label>
           <textarea
             id="message"
             name="message"
+            className="inputText"
             value={formData.message}
             onChange={handleInputChange}
           />
         </div>
-        <button type="submit">Enviar</button>
+        <button className="btnForm" type="submit">
+          Enviar
+        </button>
       </form>
-    </>
+    </div>
   );
 };
 

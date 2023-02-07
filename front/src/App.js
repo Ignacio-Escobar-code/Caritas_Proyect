@@ -13,7 +13,7 @@ import Contact from "./pages/Contacto/contacto";
 import Navbar from "./components/Navbar/navbar";
 import SubscribeForm from "./components/Suscribe-mail/suscribe_mail";
 import FormMail from "./components/Form-send-mail/form_mail";
-
+import Copyright from "./components/Copyright/Copyright";
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
       </Routes>
       <FormMail />
       <SubscribeForm />
+      <Copyright />
     </Router>
   );
 }

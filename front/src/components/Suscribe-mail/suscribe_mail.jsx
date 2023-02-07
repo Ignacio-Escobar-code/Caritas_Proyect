@@ -12,18 +12,19 @@ const SubscribeForm = () => {
 
   return (
     <div className="suscribe">
-      <div>Quiero recibir info</div>
-      <div>
+      <div className="text">QUIERO RECIBIR INFO</div>
+      <div className="formuSuscribe">
         <form onSubmit={handleSubmit}>
-          <label>
-            E-mail
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <button type="submit">Subscribite</button>
+          <input
+            className="inputSuscribe"
+            type="email"
+            placeholder="E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button type="submit" className="btnSuscribe">
+            Subscribite
+          </button>
         </form>
       </div>
     </div>

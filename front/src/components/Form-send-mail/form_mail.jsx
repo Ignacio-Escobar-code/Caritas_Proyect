@@ -24,25 +24,27 @@ const FormMail = () => {
 
   return (
     <div className="bloqueForm">
-      <form onSubmit={handleSubmit}>
-        <div className="logoFooter">
-      <div className="rowLogoRedes">
-        <div className="logoFooter">
-          {" "}
-          <a href="/">
-            <img
-              src="Logo-black.png"
-              alt=" Logo de Carites Marketing"
-              className="imgLogo"
-            />
-          </a>
+      <div className="logoForm">
+        <div className="rowLogoForm">
+          <div className="logoFooter">
+            {" "}
+            <a href="/">
+              <img
+                src="Logo-black.png"
+                alt=" Logo de Carites Marketing"
+                className="imgLogo"
+              />
+            </a>
+          </div>
         </div>
       </div>
-      <div className="rowForm">
+      <div className="formContainer">
         <form onSubmit={handleSubmit}>
-          <div className="nameForm">
+
+          <div className="formRow">
+
             <label htmlFor="name" className="labelName">
-              Nombre*
+              Nombre *
             </label>
             <input
               type="text"
@@ -66,7 +68,8 @@ const FormMail = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className="paisForm">
+
+          <div className="formRow">
             <label htmlFor="country" className="labelPais">
               País*:
             </label>
@@ -79,25 +82,32 @@ const FormMail = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className="textForm">
-            <label htmlFor="message" className="textLabel">
-              ¿En que puedo ayudarte?*
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              className="inputText"
-              value={formData.message}
-              onChange={handleInputChange}
-            />
+          <div className="formRow">
+            <div className="col-form1">
+
+              <label htmlFor="message" className="textLabel">
+                ¿En que puedo ayudarte?*
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                className="inputText"
+                value={formData.message}
+                onChange={handleInputChange}
+              />
+            </div>
           </div>
           <button className="btnForm" type="submit">
             Enviar
           </button>
+
+
         </form>
       </div>
     </div>
   );
+
+
 };
 
 export default FormMail;

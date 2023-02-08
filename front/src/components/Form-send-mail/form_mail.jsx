@@ -53,7 +53,7 @@ const FormMail = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className="mailForm">
+          <div className="formRow">
             <label htmlFor="email" className="labelEmail">
               Email*
             </label>

@@ -25,24 +25,18 @@ const FormMail = () => {
   return (
     <div className="bloqueForm">
       <div className="logoForm">
-        <div className="rowLogoForm">
-          <div className="logoFooter">
-            {" "}
-            <a href="/">
-              <img
-                src="Logo-black.png"
-                alt=" Logo de Carites Marketing"
-                className="imgLogo"
-              />
-            </a>
-          </div>
-        </div>
+        {" "}
+        <a href="/">
+          <img
+            src="Logo-black.png"
+            alt=" Logo de Carites Marketing"
+            className="imgLogo"
+          />
+        </a>
       </div>
       <div className="formContainer">
         <form onSubmit={handleSubmit}>
-
           <div className="formRow">
-
             <label htmlFor="name" className="labelName">
               Nombre *
             </label>
@@ -84,7 +78,6 @@ const FormMail = () => {
           </div>
           <div className="formRow">
             <div className="col-form1">
-
               <label htmlFor="message" className="textLabel">
                 ¿En que puedo ayudarte?*
               </label>
@@ -100,14 +93,10 @@ const FormMail = () => {
           <button className="btnForm" type="submit">
             Enviar
           </button>
-
-
         </form>
       </div>
     </div>
   );
-
-
 };
 
 export default FormMail;

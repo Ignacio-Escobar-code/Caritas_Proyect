@@ -5,10 +5,6 @@
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  background-color:#A6B8A8;
+  background-color: #a6b8a8;
   height: 450px;
-}
-.formRow label{
-  display: block;
-
 }

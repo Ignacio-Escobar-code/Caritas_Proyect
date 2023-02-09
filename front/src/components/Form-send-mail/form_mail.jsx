@@ -36,34 +36,32 @@ const FormMail = () => {
       </div>
       <div className="formContainer">
         <form onSubmit={handleSubmit}>
-          <div className="formRow">
-            <label htmlFor="name" className="labelName">
-              Nombre *
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="inputData"
-              value={formData.name}
-              onChange={handleInputChange}
-            />
+          <div className="name-mail">
+            <div className="childrenName">
+              <label htmlFor="name" className="labelName">
+                Nombre *
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="inputData"
+                value={formData.name}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="childrenMail">
+              <label htmlFor="email">Email*</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+              />
+            </div>
           </div>
-          <div className="formRow">
-            <label htmlFor="email" className="labelEmail">
-              Email*
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="inputData"
-              value={formData.email}
-              onChange={handleInputChange}
-            />
-          </div>
-
-          <div className="formRow">
+          <div className="childrenPais">
             <label htmlFor="country" className="labelPais">
               País*:
             </label>
@@ -76,7 +74,7 @@ const FormMail = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className="formRow">
+          <div className="inputText">
             <div className="col-form1">
               <label htmlFor="message" className="textLabel">
                 ¿En que puedo ayudarte?*

@@ -23,84 +23,38 @@ const FormMail = () => {
   };
 
   return (
-    <div className="bloqueForm">
-      <div className="logoForm">
-        <div className="rowLogoForm">
-          <div className="logoFooter">
-            {" "}
-            <a href="/">
-              <img
-                src="Logo-black.png"
-                alt=" Logo de Carites Marketing"
-                className="imgLogo"
-              />
-            </a>
-          </div>
+    <div className="container-fluid  bloque-form">
+      <div className="row  align-items-center justify-content-center">
+        <div className="col">
+          <a href="/"><img src="Logo-Black.png" alt="Logo de Carites" /></a>
         </div>
-      </div>
-      <div className="formContainer">
-        <form onSubmit={handleSubmit}>
+        <form action="">
 
-          <div className="formRow">
-
-            <label htmlFor="name" className="labelName">
-              Nombre *
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="inputData"
-              value={formData.name}
-              onChange={handleInputChange}
-            />
-          </div>
-          <div className="formRow">
-            <label htmlFor="email" className="labelEmail">
-              Email*
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="inputData"
-              value={formData.email}
-              onChange={handleInputChange}
-            />
-          </div>
-
-          <div className="formRow">
-            <label htmlFor="country" className="labelPais">
-              País*:
-            </label>
-            <input
-              type="text"
-              id="country"
-              name="country"
-              className="inputData"
-              value={formData.country}
-              onChange={handleInputChange}
-            />
-          </div>
-          <div className="formRow">
-            <div className="col-form1">
-
-              <label htmlFor="message" className="textLabel">
-                ¿En que puedo ayudarte?*
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="inputText"
-                value={formData.message}
-                onChange={handleInputChange}
-              />
+        
+          <div className="mb-3">
+            <label for="exampleFormControlInput1" className="form-label">Nombre *</label>
+            <input type="email" className="form-control" id="exampleFormControlInput1" />
+            <div className="mb-3">
+              <label for="exampleFormControlInput1" className="form-label">Email *</label>
+              <input type="email" className="form-control" id="exampleFormControlInput1" />
             </div>
           </div>
-          <button className="btnForm" type="submit">
-            Enviar
-          </button>
+        
+          <div className="col">
+            <div className="mb-3">
+              <label for="exampleFormControlInput1" className="form-label">Pais</label>
+              <input type="email" className="form-control" id="exampleFormControlInput1" />
+            </div>
+          </div>
+          <div className="col">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" className="form-label">¿En que puedo ayudarte?</label>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
 
+
+        
 
         </form>
       </div>

@@ -1,14 +1,6 @@
-.bloqueForm {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
+.bloque-form {
+  
   background-color:#A6B8A8;
   height: 450px;
 }
-.formRow label{
-  display: block;
 
-}

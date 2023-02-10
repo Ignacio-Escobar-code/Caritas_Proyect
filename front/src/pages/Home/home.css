@@ -1,0 +1,60 @@
+.homeSection1 {
+  background-color: #a6b8a8;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeSection1 h1 {
+}
+.homeSection1 button {
+  background-color: #77876e;
+  color: #ffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  border: solid 1.5px black;
+  transition: all 0.2s;
+}
+.homeSection1 button:active {
+  transform: translateY(2px);
+  border-width: 2px;
+  background-color: #ffffff2c;
+  width: 190px;
+  color: #000000;
+}
+
+.homeSection2 {
+  background-color: #c4967f;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.contenidoTextual {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 300px;
+  color: #ffff;
+  z-index: 5;
+}
+
+.contenidoTextual h2 {
+  font-size: 35px;
+}
+
+.imagenesDecoLaptop {
+}
+
+.laptopImg {
+  width: 500px;
+  z-index: 6;
+}
+
+.circuloDeCirculos {
+  width: 500px;
+  position: relative;
+}

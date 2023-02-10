@@ -58,3 +58,36 @@
   height: 100px;
   margin: 2px;
 }
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgLogo {
+  margin-bottom: 50px;
+}
+
+.redesLink {
+  display: flex;
+  flex-direction: column;
+}
+
+.redesLink a {
+  margin-top: 10px;
+}
+
+.logoMail {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.logoInstagram {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.logoPinterest {
+  width: 15px;
+  margin-right: 15px;
+}

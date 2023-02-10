@@ -24,7 +24,7 @@ const FormMail = () => {
 
   return (
     <div className="bloqueForm">
-      <div className="logoForm">
+      <div className="icons">
         {" "}
         <a href="/">
           <img
@@ -33,6 +33,32 @@ const FormMail = () => {
             className="imgLogo"
           />
         </a>
+        <div className="redesLink">
+          <a href="#">
+            <img
+              src="LogoMail.png"
+              alt="Logo Para envio de mail"
+              className="logoMail"
+            />
+            Info@carites.com.ar
+          </a>
+          <a href="https://www.instagram.com/carites_marketing/?hl=es-la">
+            <img
+              src="LogoInstagram.png"
+              alt="Logo Instagram"
+              className="logoInstagram"
+            />
+            @carites_marketing
+          </a>
+          <a href="https://ar.pinterest.com/caritesmarketing/">
+            <img
+              src="LogoPinterest.png"
+              alt="Logo Pinterest"
+              className="logoPinterest"
+            />
+            @carites
+          </a>
+        </div>
       </div>
       <div className="formContainer">
         <form onSubmit={handleSubmit}>

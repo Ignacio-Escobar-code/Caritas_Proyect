@@ -34,13 +34,13 @@ const FormMail = () => {
           />
         </a>
         <div className="redesLink">
-          <a href="#">
+          <a href="mailto:info@carites.com.ar?subjet=Consultar por un servicio">
             <img
               src="LogoMail.png"
               alt="Logo Para envio de mail"
               className="logoMail"
             />
-            Info@carites.com.ar
+            info@carites.com.ar
           </a>
           <a href="https://www.instagram.com/carites_marketing/?hl=es-la">
             <img

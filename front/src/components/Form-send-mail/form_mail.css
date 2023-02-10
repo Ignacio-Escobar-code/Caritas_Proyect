@@ -1,10 +1,59 @@
 .bloqueForm {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
   background-color: #a6b8a8;
-  height: 450px;
+  height: 400px;
+}
+
+.formContainer {
+  width: auto;
+}
+
+.name-mail {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+.name-mail input {
+  width: 200px;
+  height: 20px;
+}
+
+.childrenName {
+  display: flex;
+  flex-direction: column;
+}
+
+.childrenMail {
+  display: flex;
+  flex-direction: column;
+}
+
+.childrenName input {
+  margin-right: 4px;
+}
+
+.childrenPais {
+  display: flex;
+  flex-direction: column;
+}
+
+.childrenPais input {
+  width: 200px;
+  height: 20px;
+}
+
+.childrenText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.childrenText textarea {
+  width: 400px;
+  height: 100px;
 }

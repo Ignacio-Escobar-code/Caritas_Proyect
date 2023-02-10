@@ -62,31 +62,26 @@ const FormMail = () => {
             </div>
           </div>
           <div className="childrenPais">
-            <label htmlFor="country" className="labelPais">
-              País*:
-            </label>
+            <label htmlFor="country">País*:</label>
             <input
               type="text"
               id="country"
               name="country"
-              className="inputData"
               value={formData.country}
               onChange={handleInputChange}
             />
           </div>
-          <div className="inputText">
-            <div className="col-form1">
-              <label htmlFor="message" className="textLabel">
-                ¿En que puedo ayudarte?*
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="inputText"
-                value={formData.message}
-                onChange={handleInputChange}
-              />
-            </div>
+          <div className="childrenText">
+            <label htmlFor="message" className="textLabel">
+              ¿En que puedo ayudarte?*
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              className="inputText"
+              value={formData.message}
+              onChange={handleInputChange}
+            />
           </div>
           <button className="btnForm" type="submit">
             Enviar

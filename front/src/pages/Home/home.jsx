@@ -32,36 +32,41 @@ const Home = () => {
       </div>
 
       {/* aca van tarjetas */}
-      <div className="containerTarjetas">
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Auditoria Digital</h5>
-          <button>VER MAS</button>
-        </div>
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Asesoria y Consultoria</h5>
-          <button>VER MAS</button>
-        </div>
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Identidad Visual</h5>
-          <button>VER MAS</button>
-        </div>
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Redes Sociales</h5>
-          <button>VER MAS</button>
-        </div>
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Publicidad Online</h5>
-          <button>VER MAS</button>
-        </div>
-        <div className="tarjetasConBtn">
-          <img src="" alt="" />
-          <h5>Diseño</h5>
-          <button>VER MAS</button>
+      <div className="fatherTarjetas">
+        <div className="containerTarjetas">
+          <div className="tarjetasConBtn">
+            <img src="icon-lupa.png" alt="Icono De la lupa" />
+            <h5>Auditoria Digital</h5>
+            <button>VER MAS</button>
+          </div>
+          <div className="tarjetasConBtn">
+            <img src="Icon-laptop-lampara.png" alt="Icono Notebook" />
+            <h5>Asesoria y Consultoria</h5>
+            <button>VER MAS</button>
+          </div>
+          <div className="tarjetasConBtn">
+            <img src="icon-identidadvisual.png" alt="Icono IV" />
+            <h5>Identidad Visual</h5>
+            <button>VER MAS</button>
+          </div>
+          <div className="tarjetasConBtn">
+            <img src="icon-redes.png" alt="Icono Redes" />
+            <h5>Redes Sociales</h5>
+            <button>VER MAS</button>
+          </div>
+          <div className="tarjetasConBtn">
+            <img
+              src="icon-publicidadonline.png"
+              alt="Icono publicidad online"
+            />
+            <h5>Publicidad Online</h5>
+            <button>VER MAS</button>
+          </div>
+          <div className="tarjetasConBtn">
+            <img src="icon-design.png" alt="Icono de diseño" />
+            <h5>Diseño</h5>
+            <button>VER MAS</button>
+          </div>
         </div>
       </div>
     </>

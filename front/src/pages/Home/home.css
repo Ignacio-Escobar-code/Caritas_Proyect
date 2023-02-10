@@ -49,15 +49,12 @@
   font-size: 35px;
 }
 
-.imagenesDecoLaptop {
-}
-
 .laptopImg {
   width: 600px;
   z-index: 5;
   position: absolute;
   bottom: 120px;
-  left: 600px;
+  left: 720px;
 }
 
 .circuloDeCirculos {
@@ -68,18 +65,30 @@
   bottom: 0;
 }
 
-.containerTarjetas {
-  width: 100%;
+.fatherTarjetas {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 80px 100px;
+  align-items: last baseline;
+  position: relative;
+  width: auto;
+  height: 600px;
+  background-color: transparent;
+}
+
+.containerTarjetas {
+  position: absolute;
+  z-index: 6;
+  bottom: 50px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 300px);
+  row-gap: 70px;
+  column-gap: 100px;
 }
 
 .tarjetasConBtn {
   background-color: #e9cfc0;
-  width: 200px;
-  height: 300px;
   border: solid 1.5px #000000;
   border-radius: 20px;
   box-shadow: 1px 3px 5px #000000;
@@ -88,6 +97,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.tarjetasConBtn:hover {
+  border: 5px #f5eb5f96;
 }
 
 .tarjetasConBtn button {

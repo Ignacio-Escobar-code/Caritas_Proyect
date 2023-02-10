@@ -1,15 +1,17 @@
 .bloqueForm {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  align-content: center;
+  /* align-content: center; */
   background-color: #a6b8a8;
+  width: 100%;
   height: 400px;
 }
 
 .formContainer {
   width: auto;
+  margin-left: 260px;
 }
 
 .name-mail {

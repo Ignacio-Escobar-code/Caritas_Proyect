@@ -11,9 +11,8 @@ import Cursos from "./pages/Cursos/cursos";
 import Recursos from "./pages/Recursos/recursos";
 import Contact from "./pages/Contacto/contacto";
 import Navbar from "./components/Navbar/navbar";
-import SubscribeForm from "./components/Suscribe-mail/suscribe_mail";
 import FormMail from "./components/Form-send-mail/form_mail";
-import Copyright from "./components/Copyright/Copyright";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -32,8 +31,7 @@ function App() {
         <Route path="/contacto" element={<Contact />} />
       </Routes>
       <FormMail />
-      <SubscribeForm />
-      <Copyright />
+      <Footer />
     </Router>
   );
 }

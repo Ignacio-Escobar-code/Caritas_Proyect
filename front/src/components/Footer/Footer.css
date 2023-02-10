@@ -1,0 +1,59 @@
+.suscribe {
+  background-color: #3b5049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 184px;
+  margin: 0 auto;
+  color: white;
+}
+
+.text {
+  margin-right: 20px;
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.formuSuscribe {
+  display: flex;
+  flex-direction: row;
+  /* margin-right: 40%; */
+}
+
+.inputSuscribe {
+  width: 500px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.btnSuscribe {
+  background-color: transparent;
+  color: white;
+  border: 1.3px solid white;
+  border-radius: 0px;
+  width: 100px;
+  height: 35px;
+  /* margin-left: 20px; */
+  transition: all 0.2s;
+}
+
+.btnSuscribe:active {
+  transform: translateY(2px);
+  border-width: 2px;
+}
+
+.copyright {
+  background-color: #383838;
+  display: flex;
+  align-items: center;
+  height: 34px;
+}
+
+.copyright p {
+  color: white;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}

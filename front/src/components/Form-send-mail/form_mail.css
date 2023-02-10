@@ -54,6 +54,7 @@
 }
 
 .childrenText textarea {
-  width: 400px;
+  width: 420px;
   height: 100px;
+  margin: 2px;
 }

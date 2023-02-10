@@ -19,44 +19,50 @@ const Home = () => {
             correcto y el momento adecuado
           </p>
         </div>
-        <div className="imagenesDecoLaptop">
-          <img
-            src="homeSection2Laptop.png"
-            alt="Imagen ilustrativa laptop"
-            className="laptopImg"
-          />
-          <img
-            src="CirculoDeCirculos.png"
-            alt="Fondo Decorativo"
-            className="circuloDeCirculos"
-          />
-        </div>
+        <img
+          src="homeSection2Laptop.png"
+          alt="Imagen ilustrativa laptop"
+          className="laptopImg"
+        />
+        <img
+          src="CirculoDeCirculos.png"
+          alt="Fondo Decorativo"
+          className="circuloDeCirculos"
+        />
       </div>
 
       {/* aca van tarjetas */}
-      <div>
-        <h5>Auditoria Digital</h5>
-        <button>VER MAS</button>
-      </div>
-      <div>
-        <h5>Asesoria y Consultoria</h5>
-        <button>VER MAS</button>
-      </div>
-      <div>
-        <h5>Identidad Visual</h5>
-        <button>VER MAS</button>
-      </div>
-      <div>
-        <h5>Redes Sociales</h5>
-        <button>VER MAS</button>
-      </div>
-      <div>
-        <h5>Publicidad Online</h5>
-        <button>VER MAS</button>
-      </div>
-      <div>
-        <h5>Diseño</h5>
-        <button>VER MAS</button>
+      <div className="containerTarjetas">
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Auditoria Digital</h5>
+          <button>VER MAS</button>
+        </div>
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Asesoria y Consultoria</h5>
+          <button>VER MAS</button>
+        </div>
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Identidad Visual</h5>
+          <button>VER MAS</button>
+        </div>
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Redes Sociales</h5>
+          <button>VER MAS</button>
+        </div>
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Publicidad Online</h5>
+          <button>VER MAS</button>
+        </div>
+        <div className="tarjetasConBtn">
+          <img src="" alt="" />
+          <h5>Diseño</h5>
+          <button>VER MAS</button>
+        </div>
       </div>
     </>
   );

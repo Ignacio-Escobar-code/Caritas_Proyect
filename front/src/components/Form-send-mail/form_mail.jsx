@@ -42,7 +42,11 @@ const FormMail = () => {
             />
             info@carites.com.ar
           </a>
-          <a href="https://www.instagram.com/carites_marketing/?hl=es-la">
+          <a
+            href="https://www.instagram.com/carites_marketing/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="LogoInstagram.png"
               alt="Logo Instagram"
@@ -50,7 +54,11 @@ const FormMail = () => {
             />
             @carites_marketing
           </a>
-          <a href="https://ar.pinterest.com/caritesmarketing/">
+          <a
+            href="https://ar.pinterest.com/caritesmarketing/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="LogoPinterest.png"
               alt="Logo Pinterest"

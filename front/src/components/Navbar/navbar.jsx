@@ -1,9 +1,14 @@
-import React from "react";
+import { React, useState } from "react";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="logo">
         {" "}
         <a href="/">
@@ -12,11 +17,11 @@ const Navbar = () => {
       </div>
       <div>
         <ul>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">
+          <li className="dropdown">
+            <a href="#" onClick={handleClick} className="dropbtn">
               Servicios
             </a>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <a href="/auditoria">Auditoria Digital</a>
               <a href="/identidad">Identidad Visual</a>
               <a href="/asesorias">Asesorias</a>
@@ -39,7 +44,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -11,8 +11,9 @@ const IdentidadVisual = () => {
         </p>
         <button>SOLICITA MAS INFO</button>
       </div>
-      <div>
-        <h2>Tu marca es mucho mas que un logo</h2>
+      <div className="iv-Section2">
+        <div className="iv-Section2-contenidoTextual">
+        <h2>Tu marca es mucho mas que un logo.</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
           dolor sequi minus eveniet aut veniam odio laboriosam! Placeat magni

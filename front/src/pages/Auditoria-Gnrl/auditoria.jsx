@@ -15,52 +15,75 @@ const Auditoria = () => {
         <button type="submit">SOLICITA MAS INFO</button>
       </div>
       <div className="bloqueHead2">
-        <h2>¿Qué incluye la auditoria?</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-          architecto ullam repudiandae dolorem debitis saepe, ad nemo? Numquam
-          eveniet omnis ipsa sed doloribus voluptatem enim id ducimus! Illum,
-          iste molestias?
-        </p>
+        <div className="bloqueDeTexto">
+          <h2>¿Qué incluye la auditoria?</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+            architecto ullam repudiandae dolorem debitis saepe, ad nemo? Numquam
+            eveniet omnis ipsa sed doloribus voluptatem enim id ducimus! Illum,
+            iste molestias?
+          </p>
+        </div>
+        <div className="bloqueImagenes">
+          <img
+            src="Icon-bigLupa.png"
+            alt="Imagen ilustrativa Lupa"
+            className="lupaGrande"
+          />
+          <img
+            src="CirculoDeCirculos.png"
+            alt="Fondo Decorativo"
+            className="circuloDeCirculos2"
+          />
+        </div>
       </div>
-      <div>
-        <h3>PROCESO DE TRABAJO</h3>
+      <div className="cuadroDelMedio">
+        <div>
+          <h3>PROCESO DE TRABAJO</h3>
+        </div>
+        <img src="numerosGrandes.png" alt="numeros divisores" />
       </div>
-      <div>
-        <h3>Atraccion</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
-          dolores ducimus accusamus minus reprehenderit voluptatem, voluptatibus
-          voluptatum quam, laudantium numquam quod maiores voluptates? Explicabo
-          numquam odit commodi? Architecto, reprehenderit aut.
-        </p>
-      </div>
-      <div>
-        <h3>Interaccion</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
-          dolores ducimus accusamus minus reprehenderit voluptatem, voluptatibus
-          voluptatum quam, laudantium numquam quod maiores voluptates? Explicabo
-          numquam odit commodi? Architecto, reprehenderit aut.
-        </p>
-      </div>
-      <div>
-        <h3>Conversion</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
-          dolores ducimus accusamus minus reprehenderit voluptatem, voluptatibus
-          voluptatum quam, laudantium numquam quod maiores voluptates? Explicabo
-          numquam odit commodi? Architecto, reprehenderit aut.
-        </p>
-      </div>
-      <div>
-        <h3>Fidelizacion</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
-          dolores ducimus accusamus minus reprehenderit voluptatem, voluptatibus
-          voluptatum quam, laudantium numquam quod maiores voluptates? Explicabo
-          numquam odit commodi? Architecto, reprehenderit aut.
-        </p>
+      <div className="contenidoDelMedio">
+        <div>
+          <h3>Atraccion</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
+            dolores ducimus accusamus minus reprehenderit voluptatem,
+            voluptatibus voluptatum quam, laudantium numquam quod maiores
+            voluptates? Explicabo numquam odit commodi? Architecto,
+            reprehenderit aut.
+          </p>
+        </div>
+        <div>
+          <h3>Interaccion</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
+            dolores ducimus accusamus minus reprehenderit voluptatem,
+            voluptatibus voluptatum quam, laudantium numquam quod maiores
+            voluptates? Explicabo numquam odit commodi? Architecto,
+            reprehenderit aut.
+          </p>
+        </div>
+        <div>
+          <h3>Conversion</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
+            dolores ducimus accusamus minus reprehenderit voluptatem,
+            voluptatibus voluptatum quam, laudantium numquam quod maiores
+            voluptates? Explicabo numquam odit commodi? Architecto,
+            reprehenderit aut.
+          </p>
+        </div>
+        <div>
+          <h3>Fidelizacion</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
+            dolores ducimus accusamus minus reprehenderit voluptatem,
+            voluptatibus voluptatum quam, laudantium numquam quod maiores
+            voluptates? Explicabo numquam odit commodi? Architecto,
+            reprehenderit aut.
+          </p>
+        </div>
       </div>
     </>
   );

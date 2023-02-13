@@ -4,15 +4,16 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 184px;
+  width: 100vw;
+  height: 15vh;
   margin: 0 auto;
   color: white;
 }
 
 .text {
-  margin-right: 20px;
+  margin-right: 2vw;
   letter-spacing: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Inter", sans-serif;
 }
 
@@ -23,16 +24,15 @@
 }
 
 .inputSuscribe {
-  width: 500px;
-  height: 30px;
-  margin-right: 10px;
+  width: 34vw;
+  height: 3.5vh;
+  margin-right: 1vw;
 }
 
 .btnSuscribe {
   background-color: transparent;
   color: white;
   border: 1.3px solid white;
-  border-radius: 0px;
   width: 100px;
   height: 35px;
   /* margin-left: 20px; */
@@ -48,12 +48,13 @@
   background-color: #383838;
   display: flex;
   align-items: center;
-  height: 34px;
+  width: 100vw;
+  height: 5vh;
 }
 
 .copyright p {
   color: white;
-  font-size: 12px;
+  font-size: 0.8rem;
   margin-left: auto;
   margin-right: auto;
 }

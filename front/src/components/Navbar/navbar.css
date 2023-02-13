@@ -1,10 +1,10 @@
 .navbar {
+  width: 100vw;
+  height: 12vh;
   background-color: #3b5049;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  height: 120px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-weight: 700;

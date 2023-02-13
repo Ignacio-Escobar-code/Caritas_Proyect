@@ -1,9 +1,10 @@
 import React from "react";
+import "./auditoria.css";
 
 const Auditoria = () => {
   return (
     <>
-      <div>
+      <div className="bloqueHead">
         <h3>AUDITORIA DE TU</h3>
         <h1>Ecosistema Digital</h1>
         <p>
@@ -13,7 +14,7 @@ const Auditoria = () => {
         </p>
         <button type="submit">SOLICITA MAS INFO</button>
       </div>
-      <div>
+      <div className="bloqueHead2">
         <h2>¿Qué incluye la auditoria?</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel

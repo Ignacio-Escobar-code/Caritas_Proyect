@@ -7,8 +7,6 @@
   justify-content: center;
 }
 
-.homeSection1 h1 {
-}
 .homeSection1 button {
   background-color: #77876e;
   color: #ffff;
@@ -40,21 +38,21 @@
   width: 400px;
   margin-left: 300px;
   color: #ffff;
-  z-index: 5;
+  position: relative;
+  bottom: 140px;
+  z-index: 6;
 }
 
 .contenidoTextual h2 {
   font-size: 35px;
 }
 
-.imagenesDecoLaptop {
-}
-
 .laptopImg {
   width: 600px;
-  z-index: 6;
+  z-index: 5;
   position: absolute;
   bottom: 120px;
+  left: 720px;
 }
 
 .circuloDeCirculos {
@@ -63,4 +61,52 @@
   position: absolute;
   left: 600px;
   bottom: 0;
+}
+
+.fatherTarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  position: relative;
+  width: auto;
+  height: 600px;
+  background-color: transparent;
+}
+
+.containerTarjetas {
+  position: absolute;
+  z-index: 6;
+  bottom: 50px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 300px);
+  row-gap: 70px;
+  column-gap: 100px;
+}
+
+.tarjetasConBtn {
+  background-color: #e9cfc0;
+  border: solid 1.5px #000000;
+  border-radius: 20px;
+  box-shadow: 1px 3px 5px #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tarjetasConBtn:hover {
+  border: 5px #f5eb5f96;
+}
+
+.tarjetasConBtn button {
+  position: absolute;
+  bottom: 10px;
+  background-color: transparent;
+  width: 90px;
+  height: 30px;
+  border: solid 1.2;
+  color: #000000;
 }

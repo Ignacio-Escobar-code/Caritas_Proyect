@@ -1,15 +1,15 @@
 import React from "react";
-
+import "./identidad.css"
 const IdentidadVisual = () => {
   return (
     <>
-      <div>
+      <div className="iv-Section1">
         <h1>Identidad Visual</h1>
         <p>
           Para marcas auténticas, Lorem ipsum dolor sit amet consectetur
           adipisicing elit.
         </p>
-        <button>SOLICITA MAS INFO</button>
+        <button> SOLICITA MÁS <span>INFO</span></button>
       </div>
       <div className="iv-Section2">
         <div className="iv-Section2-contenidoTextual">
@@ -20,12 +20,18 @@ const IdentidadVisual = () => {
           atque voluptatum adipisci quia nisi doloribus repellat, nostrum,
           facilis nam error.
         </p>
+        </div>
+        <div className="iv-Section2-img">
+          <img src="../iv-section2-img.png" alt="foto de tipografias con flechas y dibujos" />
+        </div> 
+      <div className="overlap-div">
+        <h5>¿COMO PODÉS ARMAR TU IDENTIDAD VISUAL?</h5>
+        <p>pedinos tu presupuesto</p>
       </div>
-      <div>
-        <h2>¿COMO PODES ARMAR TU IDENTIDAD VISUAL?</h2>
-        <p>Pedinos tu presupuesto</p>
       </div>
-      <div>
+      <div className="iv-Section3">
+      <div className="iv-section3-cards">
+        <div className="section3-card-img"> <img src="../icon-flechon.png" alt="" /></div>
         <h3>Isologitipo de tu marca</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id eos,
@@ -34,7 +40,9 @@ const IdentidadVisual = () => {
         </p>
         <button>PEDÍ PRESUPUESTO</button>
       </div>
-      <div>
+      <hr />
+      <div className="iv-section3-cards">
+<div className="section3-card-img"> <img src="../icon-flechon.png" alt="" /></div>
         <h3>Guiá de identidad visual</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id eos,
@@ -43,7 +51,9 @@ const IdentidadVisual = () => {
         </p>
         <button>PEDÍ PRESUPUESTO</button>
       </div>
-      <div>
+      <hr />
+      <div className="iv-section3-cards">
+<div className="section3-card-img"> <img src="../icon-flechon.png" alt="" /></div>
         <h3>Manual de identidad visual</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id eos,
@@ -52,7 +62,9 @@ const IdentidadVisual = () => {
         </p>
         <button>PEDÍ PRESUPUESTO</button>
       </div>
-      <div>
+      <hr />
+      <div className="iv-section3-cards">
+<div className="section3-card-img"> <img src="../icon-flechon.png" alt="" /></div>
         <h3>Manual de identidad visual + Editables</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum id eos,
@@ -61,8 +73,11 @@ const IdentidadVisual = () => {
         </p>
         <button>PEDÍ PRESUPUESTO</button>
       </div>
-      <div>
-        <h4>OTROS DISEÑOS</h4>
+       
+      </div>
+      <div className="iv-section3">
+        <div className="section3-card-img"> <img src="../icon-flechon.png" alt="" /></div>
+        <h3>OTROS DISEÑOS</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
       <div>

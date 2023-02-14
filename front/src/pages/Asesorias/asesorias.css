@@ -68,17 +68,19 @@ span {
     margin-bottom: 0px;
 
 }
-
+.as-Section2-contenidoTextual{
+    font-size:2vh;
+}
 .as-Section2-img {
     display: flex;
     position: absolute;
     top: -20%;
-    right: 35%;
+    right: 30%;
     max-width: 400px;
 
 }
 
-.overlap-div {  
+.as-overlap-div {  
     padding: 50px;
     color: white;
     background-color: #3B5049;
@@ -86,19 +88,19 @@ span {
     width: 100%;
     text-align: center;
     position: absolute;
-    left: 0%;
-    bottom: 0%;
     border: 1px solid black;
+    bottom:-15%;
+    left: 24%;
 }
 
-.overlap-div h3 {
+.as-overlap-div h3 {
 
     letter-spacing: 15px;
     margin: 0 auto;
     padding: 0 210px;
 }
 
-.overlap-div p {
+.as-overlap-div p {
     margin-top: 0;
     text-align: center;
 }
@@ -110,7 +112,7 @@ span {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 900px;
     width: 100%;
     position: relative;

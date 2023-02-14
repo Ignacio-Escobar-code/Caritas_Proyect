@@ -13,7 +13,7 @@ const Asesorias = () => {
       </div>
       <div className="as-Section2">
         <div className="as-Section2-contenidoTextual">
-          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+          <h2>Lorem ipsum dolor, sit amett.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
             obcaecati laudantium iste qui nulla rerum nihil doloribus, commodi
@@ -24,7 +24,7 @@ const Asesorias = () => {
         <div className="as-Section2-img">
           <img src="../as-section2-img.png" alt="foto de laptop con una lamparita encendida" />
         </div>
-      <div className="overlap-div">
+      <div className="as-overlap-div">
         <h3>ELEGI TU PLAN</h3>
         <p>y agendemos nuestra primera sesion</p>
       </div>

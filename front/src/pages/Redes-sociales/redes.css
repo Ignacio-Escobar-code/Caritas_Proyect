@@ -1,0 +1,132 @@
+.section1 {
+  background-color: #a6b8a8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.section1 h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  margin: 0;
+}
+
+.section1 h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.section1 p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.section1 button {
+  background-color: #77876e;
+  color: #ffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  border: solid 1.5px black;
+  transition: all 0.2s;
+}
+
+.section1 button:active {
+  transform: translateY(2px);
+  border-width: 2px;
+  background-color: #ffffff2c;
+  width: 190px;
+  color: #000000;
+}
+
+.section2 {
+  background-color: #e9cfc0;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.bloqueDeTexto {
+  margin-top: 10vh;
+  color: #3b5049;
+  position: absolute;
+  left: 15vw;
+  bottom: 20vh;
+}
+
+.section2 h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.section2 p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.section2 p {
+  width: 35vw;
+}
+
+.bloqueImagenes {
+  position: absolute;
+  background-color: #0000005c;
+  width: 500px;
+  left: 55%;
+  bottom: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.circuloDeCirculos3 {
+  position: absolute;
+  width: 400px;
+  z-index: 1;
+  left: -30px;
+  top: -70px;
+}
+
+.mobilePhone {
+  position: absolute;
+  width: 300px;
+  z-index: 3;
+}
+
+.section3 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cuadroDelMedio2 {
+  margin: 0 auto;
+  background: #c4967f;
+  border: solid 0.8px #000000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 180px;
+  position: absolute;
+  bottom: -50px;
+  z-index: 2;
+}
+
+.cuadroDelMedio2 h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 20px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}

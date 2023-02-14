@@ -75,8 +75,7 @@ span {
 
 }
 
-.overlap-div {
-    margin: 0 auto;
+.iv-overlap-div {
     padding: 50px;
     color: white;
     background-color: #3B5049;
@@ -84,20 +83,21 @@ span {
     width: 100%;
     text-align: center;
     position: absolute;
-    left: 25%;
+    left: 20%;
     bottom: -15%;
     border: 1px solid black;
 }
 
-.overlap-div h4 {
+.iv-overlap-div h4 {
 
     letter-spacing: 15px;
     margin: 0 auto;
     padding: 0 210px;
 }
 
-.overlap-div p {
+.iv-overlap-div p {
     margin-top: 0;
+    text-align: center;
 }
 
 .iv-Section3 {
@@ -139,6 +139,9 @@ span {
     color:#3B5049;
     margin-top: 12vh;
     display: block;
+    text-align: center;
+}
+.iv-Section4 p{
     text-align: center;
 }
 .iv-Section4 hr{

@@ -24,7 +24,7 @@ const IdentidadVisual = () => {
         <div className="iv-Section2-img">
           <img src="../iv-section2-img.png" alt="foto de tipografias con flechas y dibujos" />
         </div>
-        <div className="overlap-div">
+        <div className="iv-overlap-div">
           <h4>¿COMO PODÉS ARMAR TU IDENTIDAD VISUAL?</h4>
           <p>pedinos tu presupuesto</p>
         </div>

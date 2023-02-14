@@ -1,5 +1,6 @@
 .navbar {
-  height: 12vh;
+  width: 100vw;
+  height: 150px;
   background-color: #3b5049;
   display: flex;
   justify-content: space-between;
@@ -7,10 +8,22 @@
   margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  position: relative;
 }
 
 .logo {
-  margin-left: 20px;
+  margin-left: 40px;
+}
+
+.containerNavLinks {
+  position: relative;
+  width: 700px;
+}
+
+.navLinks {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 1vw;
 }
 
 ul {

@@ -1,7 +1,7 @@
 .bloqueHead {
   background-color: #a6b8a8;
   width: 100vw;
-  height: 53vh;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +48,7 @@
 .bloqueHead2 {
   background-color: #e9cfc0;
   width: 100vw;
-  height: 53vh;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,21 +79,21 @@
 
 .bloqueImagenes {
   position: absolute;
-  left: 55vw;
-  bottom: 46.5vh;
+  left: 55%;
+  bottom: 86%;
   display: flex;
   align-items: center;
 }
 
 .circuloDeCirculos2 {
-  width: 20vw;
+  width: 300px;
   z-index: 1;
   position: absolute;
 }
 
 .lupaGrande {
   position: absolute;
-  width: 15vw;
+  width: 250px;
   z-index: 2;
   left: -4vw;
 }
@@ -115,13 +115,8 @@
   justify-content: center;
   align-items: center;
   width: 70vw;
-  height: 22vh;
+  height: 180px;
   position: absolute;
-}
-
-.cuadroDelMedio img {
-  position: absolute;
-  top: 5vh;
 }
 
 .cuadroDelMedio h3 {
@@ -129,7 +124,34 @@
   font-weight: 700;
   letter-spacing: 20px;
   font-size: 20px;
+  margin-bottom: 60px;
 }
+
 .contenidoDelMedio {
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.contenidoDelMedio div {
+  justify-content: space-around;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
   position: relative;
+  margin-bottom: 200px;
+}
+.contenidoDelMedio hr {
+  margin-bottom: 100px;
+}
+
+.numerosG {
+  position: absolute;
+  bottom: 110%;
+  left: 15%;
 }

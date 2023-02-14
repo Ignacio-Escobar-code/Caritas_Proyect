@@ -41,47 +41,61 @@ const Auditoria = () => {
         <div>
           <h3>PROCESO DE TRABAJO</h3>
         </div>
-        <img src="numerosGrandes.png" alt="numeros divisores" />
       </div>
       <div className="contenidoDelMedio">
         <div>
+          <img src="N°1Auditoria.png" alt="numero1" className="numerosG" />
+          <img src="icon-atraccion.png" alt="atraccion" className="dibujosG" />
           <h3>Atraccion</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
             dolores ducimus accusamus minus reprehenderit voluptatem,
-            voluptatibus voluptatum quam, laudantium numquam quod maiores
-            voluptates? Explicabo numquam odit commodi? Architecto,
-            reprehenderit aut.
+            voluptatibus voluptatum quam,
           </p>
         </div>
+        <hr />
         <div>
+          <img src="N°2Auditoria.png" alt="numero2" className="numerosG" />
+          <img
+            src="icon-interaccion.png"
+            alt="interaccion"
+            className="dibujosG"
+          />
           <h3>Interaccion</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
             dolores ducimus accusamus minus reprehenderit voluptatem,
-            voluptatibus voluptatum quam, laudantium numquam quod maiores
-            voluptates? Explicabo numquam odit commodi? Architecto,
-            reprehenderit aut.
+            voluptatibus voluptatum quam,
           </p>
         </div>
+        <hr />
         <div>
+          <img src="N°3Auditoria.png" alt="numero3" className="numerosG" />
+          <img
+            src="icon-conversion.png"
+            alt="conversion"
+            className="dibujosG"
+          />
           <h3>Conversion</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
             dolores ducimus accusamus minus reprehenderit voluptatem,
-            voluptatibus voluptatum quam, laudantium numquam quod maiores
-            voluptates? Explicabo numquam odit commodi? Architecto,
-            reprehenderit aut.
+            voluptatibus voluptatum quam,
           </p>
         </div>
+        <hr />
         <div>
+          <img src="N°4Auditoria.png" alt="numero4" className="numerosG" />
+          <img
+            src="icon-fidelizacion.png"
+            alt="fidelizacion"
+            className="dibujosG"
+          />
           <h3>Fidelizacion</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
             dolores ducimus accusamus minus reprehenderit voluptatem,
-            voluptatibus voluptatum quam, laudantium numquam quod maiores
-            voluptates? Explicabo numquam odit commodi? Architecto,
-            reprehenderit aut.
+            voluptatibus voluptatum quam,
           </p>
         </div>
       </div>

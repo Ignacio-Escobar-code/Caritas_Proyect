@@ -1,5 +1,6 @@
 .homeSection1 {
   background-color: #a6b8a8;
+  width: 100vw;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@
 
 .homeSection2 {
   background-color: #c4967f;
+  width: 100vw;
   height: 500px;
   display: flex;
   align-items: center;

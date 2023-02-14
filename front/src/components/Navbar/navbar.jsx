@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./navbar.css";
-
+import {FaEnvelope} from "react-icons/fa"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="/recursos">Recursos</a>
           </li>
           <li>
-            <a href="/contacto">Contactanos</a>
+            <a href="/contacto"> Contactanos  <FaEnvelope/> </a>
           </li>
         </ul>
       </div>

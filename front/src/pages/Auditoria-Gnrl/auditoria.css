@@ -1,21 +1,30 @@
 .bloqueHead {
   background-color: #a6b8a8;
+  width: 100vw;
+  height: 53vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: auto;
-  height: 300px;
+  justify-content: center;
   color: #fff;
 }
 
 .bloqueHead h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  margin: 0;
 }
 
 .bloqueHead h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .bloqueHead p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .bloqueHead button {
@@ -37,16 +46,90 @@
 }
 
 .bloqueHead2 {
+  background-color: #e9cfc0;
+  width: 100vw;
+  height: 53vh;
   display: flex;
-  background: #e9cfc0;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: auto;
-  height: 300px;
   position: relative;
 }
 
+.bloqueDeTexto {
+  margin-top: 10vh;
+  color: #3b5049;
+  position: absolute;
+  left: 15vw;
+  bottom: 20vh;
+}
+
+.bloqueDeTexto h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.bloqueDeTexto p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 .bloqueHead2 p {
-  width: 500px;
+  width: 35vw;
+}
+
+.bloqueImagenes {
+  position: absolute;
+  left: 55vw;
+  bottom: 46.5vh;
+  display: flex;
+  align-items: center;
+}
+
+.circuloDeCirculos2 {
+  width: 20vw;
+  z-index: 1;
+  position: absolute;
+}
+
+.lupaGrande {
+  position: absolute;
+  width: 15vw;
+  z-index: 2;
+  left: -4vw;
+}
+
+.cuadroDelMedio {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cuadroDelMedio div {
+  margin: 0 auto;
+  background: #c4967f;
+  border: solid 0.8px #000000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 22vh;
+  position: absolute;
+}
+
+.cuadroDelMedio img {
+  position: absolute;
+  top: 5vh;
+}
+
+.cuadroDelMedio h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 20px;
+  font-size: 20px;
+}
+.contenidoDelMedio {
+  position: relative;
 }

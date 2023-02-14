@@ -20,11 +20,15 @@ const Asesorias = () => {
           temporibus itaque ab.
         </p>
       </div>
-      <div>
+        <div className="as-Section2-img">
+          <img src="../as-section2-img.png" alt="foto de laptop con una lamparita encendida" />
+        </div>
+      </div>
+      <div className="overlap-div">
         <h3>ELEGI TU PLAN</h3>
         <p>y agendemos nuestra primera sesion</p>
       </div>
-      <div>
+        <div>
         <h3>ASESORIA</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod

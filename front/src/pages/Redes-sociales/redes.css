@@ -1,4 +1,4 @@
-.section1 {
+.rs-section1 {
   background-color: #a6b8a8;
   width: 100vw;
   height: 500px;
@@ -9,25 +9,25 @@
   color: #fff;
 }
 
-.section1 h1 {
+.rs-section1 h1 {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   margin: 0;
 }
 
-.section1 h3 {
+.rs-section1 h3 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   margin: 0;
   font-size: 1rem;
 }
 
-.section1 p {
+.rs-section1 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
-.section1 button {
+.rs-section1 button {
   background-color: #77876e;
   color: #ffff;
   width: 200px;
@@ -37,7 +37,7 @@
   transition: all 0.2s;
 }
 
-.section1 button:active {
+.rs-section1 button:active {
   transform: translateY(2px);
   border-width: 2px;
   background-color: #ffffff2c;
@@ -45,7 +45,7 @@
   color: #000000;
 }
 
-.section2 {
+.rs-section2 {
   background-color: #e9cfc0;
   width: 100vw;
   height: 500px;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.bloqueDeTexto {
+.rs-bloqueDeTexto {
   margin-top: 10vh;
   color: #3b5049;
   position: absolute;
@@ -63,20 +63,20 @@
   bottom: 20vh;
 }
 
-.section2 h2 {
+.rs-section2 h2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
 
-.section2 p {
+.rs-section2 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-.section2 p {
+.rs-section2 p {
   width: 35vw;
 }
 
-.bloqueImagenes {
+.rs-bloqueImagenes {
   position: absolute;
   background-color: #0000005c;
   width: 500px;
@@ -86,7 +86,7 @@
   justify-content: center;
 }
 
-.circuloDeCirculos3 {
+.rs-circuloDeCirculos3 {
   position: absolute;
   width: 400px;
   z-index: 1;
@@ -94,13 +94,13 @@
   top: -70px;
 }
 
-.mobilePhone {
+.rs-mobilePhone {
   position: absolute;
   width: 300px;
   z-index: 3;
 }
 
-.section3 {
+.rs-section3 {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@
   position: relative;
 }
 
-.cuadroDelMedio2 {
+.rs-cuadroDelMedio2 {
   margin: 0 auto;
   background: #c4967f;
   border: solid 0.8px #000000;
@@ -123,7 +123,7 @@
   z-index: 2;
 }
 
-.cuadroDelMedio2 h3 {
+.rs-cuadroDelMedio2 h3 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   letter-spacing: 20px;

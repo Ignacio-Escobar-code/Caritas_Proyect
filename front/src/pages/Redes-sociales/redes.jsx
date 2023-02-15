@@ -4,14 +4,14 @@ import "./redes.css";
 const RedesSociales = () => {
   return (
     <>
-      <div className="section1">
+      <div className="rs-section1">
         <h4>COMO TE PODEMOS AYUDAR EN</h4>
         <h1>Redes Sociales</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <button>SOLICITA MAS INFO</button>
       </div>
-      <div className="section2">
-        <div className="bloqueDeTexto">
+      <div className="rs-section2">
+        <div className="rs-bloqueDeTexto">
           <h2>Generar un mundo sin Spam</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
@@ -20,25 +20,25 @@ const RedesSociales = () => {
             Suscipit eligendi qui obcaecati.
           </p>
         </div>
-        <div className="bloqueImagenes">
+        <div className="rs-bloqueImagenes">
           <img
             src="CirculoDeCirculos.png"
             alt="Fondo Decorativo"
-            className="circuloDeCirculos3"
+            className="rs-circuloDeCirculos3"
           />
           <img
             src="redesSociales-mobile.png"
             alt="redes sociales mobile"
-            className="mobilePhone"
+            className="rs-mobilePhone"
           />
         </div>
       </div>
-      <div className="section3">
-        <div className="cuadroDelMedio2">
+      <div className="rs-section3">
+        <div className="rs-cuadroDelMedio2">
           <h3>PROCESO DE TRABAJO</h3>
         </div>
       </div>
-      <div className="section4">
+      <div className="rs-section4">
         <div>
           <h4>Auditar tus redes sociales</h4>
           <p>

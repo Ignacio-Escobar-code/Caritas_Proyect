@@ -11,15 +11,16 @@
 }
 
 .containerHijo {
-  width: 55%;
+  /* width: 80%; */
   display: flex;
   justify-content: space-between;
 }
 
 .text {
   display: flex;
-  background-color: #383838;
-  height: 30px;
+  align-items: center;
+  width: 250px;
+  height: 40px;
   margin-right: 20px;
 }
 
@@ -31,14 +32,16 @@
 }
 
 .formuSuscribe {
+  width: 62vw;
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
 .inputSuscribe {
-  width: 30vw;
+  width: 35vw;
   height: 30px;
-  margin-right: 20px;
+  margin-right: 2vw;
 }
 
 .btnSuscribe {

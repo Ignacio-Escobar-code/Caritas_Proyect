@@ -19,16 +19,18 @@ const Home = () => {
             correcto y el momento adecuado
           </p>
         </div>
-        <img
-          src="homeSection2Laptop.png"
-          alt="Imagen ilustrativa laptop"
-          className="laptopImg"
-        />
-        <img
-          src="CirculoDeCirculos.png"
-          alt="Fondo Decorativo"
-          className="circuloDeCirculos"
-        />
+        <div className="containterImgHome">
+          <img
+            src="homeSection2Laptop.png"
+            alt="Imagen ilustrativa laptop"
+            className="laptopImg"
+          />
+          <img
+            src="CirculoDeCirculos.png"
+            alt="Fondo Decorativo"
+            className="circuloDeCirculos"
+          />
+        </div>
       </div>
 
       {/* aca van tarjetas */}

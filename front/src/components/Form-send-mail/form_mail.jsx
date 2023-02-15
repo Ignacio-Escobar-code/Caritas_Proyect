@@ -24,51 +24,51 @@ const FormMail = () => {
 
   return (
     <div className="bloqueForm">
-      <div className="icons">
-        {" "}
-        <a href="/">
-          <img
-            src="Logo-black.png"
-            alt=" Logo de Carites Marketing"
-            className="imgLogo"
-          />
-        </a>
-        <div className="redesLink">
-          <a href="mailto:info@carites.com.ar?subject=Consulta sobre productos">
+      <div className="containerFormMail">
+        <div className="icons">
+          {" "}
+          <a href="/">
             <img
-              src="LogoMail.png"
-              alt="Logo Para envio de mail"
-              className="logoMail"
+              src="Logo-black.png"
+              alt=" Logo de Carites Marketing"
+              className="imgLogo"
             />
-            info@carites.com.ar
           </a>
-          <a
-            href="https://www.instagram.com/carites_marketing/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="LogoInstagram.png"
-              alt="Logo Instagram"
-              className="logoInstagram"
-            />
-            @carites_marketing
-          </a>
-          <a
-            href="https://ar.pinterest.com/caritesmarketing/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="LogoPinterest.png"
-              alt="Logo Pinterest"
-              className="logoPinterest"
-            />
-            @carites
-          </a>
+          <div className="redesLink">
+            <a href="mailto:info@carites.com.ar?subject=Consulta sobre productos">
+              <img
+                src="LogoMail.png"
+                alt="Logo Para envio de mail"
+                className="logoMail"
+              />
+              info@carites.com.ar
+            </a>
+            <a
+              href="https://www.instagram.com/carites_marketing/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="LogoInstagram.png"
+                alt="Logo Instagram"
+                className="logoInstagram"
+              />
+              @carites_marketing
+            </a>
+            <a
+              href="https://ar.pinterest.com/caritesmarketing/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="LogoPinterest.png"
+                alt="Logo Pinterest"
+                className="logoPinterest"
+              />
+              @carites
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="formContainer">
         <form onSubmit={handleSubmit}>
           <div className="name-mail">
             <div className="childrenName">

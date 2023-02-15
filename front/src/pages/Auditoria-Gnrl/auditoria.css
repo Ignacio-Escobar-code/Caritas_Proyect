@@ -1,6 +1,6 @@
 .bloqueHead {
   background-color: #a6b8a8;
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 700;
   margin: 0;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .bloqueHead p {
@@ -47,7 +47,7 @@
 
 .bloqueHead2 {
   background-color: #e9cfc0;
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@
 }
 
 .cuadroDelMedio {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

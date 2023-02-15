@@ -11,11 +11,13 @@ const Footer = () => {
   };
 
   return (
-    <footer>
+    <footer className="footerContainer">
       <div className="suscribe">
-        <div className="text">QUIERO RECIBIR INFO</div>
-        <div className="formuSuscribe">
-          <form onSubmit={handleSubmit}>
+        <div className="containerHijo">
+          <div className="text">
+            <p>QUIERO RECIBIR INFO</p>
+          </div>
+          <form className="formuSuscribe" onSubmit={handleSubmit}>
             <input
               className="inputSuscribe"
               type="email"

@@ -30,7 +30,7 @@ const Footer = () => {
         </form>
       </div>
       <div className="copyright">
-        <p>©Copyright Carites Web . 2022</p>
+        <p>©Copyright Carites Marketing 2023</p>
       </div>
     </footer>
   );

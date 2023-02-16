@@ -1,0 +1,64 @@
+.ds-Section1 {
+    background-color: #a6b8a8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .ds-Section1 button {
+    background-color: #77876e;
+    color: #ffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    border: solid 1.5px black;
+    transition: all 0.2s;
+  }
+  .ds-Section1 button:active {
+    transform: translateY(2px);
+    border-width: 2px;
+    background-color: #ffffff2c;
+    width: 190px;
+    color: #000000;
+  }
+  .ds-Section2 {
+    color:#3B5049;
+    background-color: #c4967f;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .ds-s2-img {
+    margin-left:15px;
+  }
+  .ds-s2-info {
+    margin-right: 15px;
+  }
+  .ds-Section2 img{
+    max-height: 500px;
+  }
+  .ds-Section2 div{
+    justify-content: center;
+    max-width:500px;
+  }
+  .ds-section4-imgs {
+    margin:0 auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    max-width: 900px;
+    margin-bottom:5vh;
+    padding-top: 50px;
+}
+.ds-section4-imgs img {
+    max-height: 100px;
+    margin-bottom: 1vh;
+}

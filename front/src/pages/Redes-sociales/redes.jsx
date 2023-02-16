@@ -39,8 +39,9 @@ const RedesSociales = () => {
         </div>
       </div>
       <div className="section4">
-        <div>
-          <h4>Auditar tus redes sociales</h4>
+        <div className="rs-Section4-cards">
+          <img src="../N°1auditoria.png" alt="" className="rs-section4-img" />
+          <h3>Auditar tus redes sociales</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
@@ -48,8 +49,10 @@ const RedesSociales = () => {
             consequuntur necessitatibus harum non.
           </p>
         </div>
-        <div>
-          <h4>Desarrollo de una estrategia</h4>
+        <hr />
+        <div className="rs-Section4-cards">
+          <img src="../N°2auditoria.png" alt="" className="rs-section4-img" />
+          <h3>Desarrollo de una estrategia</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
@@ -57,8 +60,10 @@ const RedesSociales = () => {
             consequuntur necessitatibus harum non.
           </p>
         </div>
-        <div>
-          <h4>Redaccion creativa</h4>
+        <hr />
+        <div className="rs-Section4-cards">
+          <img src="../N°3auditoria.png" alt="" className="rs-section4-img" />
+          <h3>Redaccion creativa</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
@@ -66,8 +71,10 @@ const RedesSociales = () => {
             consequuntur necessitatibus harum non.
           </p>
         </div>
-        <div>
-          <h4>Diseño de contenidos</h4>
+        <hr />
+        <div className="rs-Section4-cards">
+          <img src="../N°4auditoria.png" alt="" className="rs-section4-img" />
+          <h3>Diseño de contenidos</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
@@ -75,8 +82,11 @@ const RedesSociales = () => {
             consequuntur necessitatibus harum non.
           </p>
         </div>
-        <div>
-          <h4>Moderacion</h4>
+        
+        <div className="rs-Section4-cards">
+          <img src="../cinco.png" alt="" className="rs-section4-img" />
+          <h3>Moderacion</h3>
+          <span>(Publicacion de contenido y calendarizacion)</span>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
@@ -84,17 +94,22 @@ const RedesSociales = () => {
             consequuntur necessitatibus harum non.
           </p>
         </div>
-        <div>
-          <h4>Publicidad online</h4>
+        <hr />
+        <div className="rs-Section4-cards">
+          <img src="../seis.png" alt="" className="rs-section4-img" />
+          <h3>Publicidad online</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+        <hr />
         </div>
-        <div>
-          <h4>Reportes de publicidad online</h4>
+        <hr />
+        <div className="rs-Section4-cards">
+          <img src="../siete.png" alt="" className="rs-section4-img" />
+          <h3>Reportes de publicidad online</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
             quo sit harum ipsa? Et soluta, animi eaque numquam eligendi quae

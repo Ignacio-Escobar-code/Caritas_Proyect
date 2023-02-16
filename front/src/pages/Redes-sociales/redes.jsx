@@ -40,6 +40,7 @@ const RedesSociales = () => {
       </div>
       <div className="rs-section4">
         <div>
+          <img src="" alt="" />
           <h4>Auditar tus redes sociales</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -47,8 +48,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Desarrollo de una estrategia</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -56,8 +59,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Redaccion creativa</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -65,8 +70,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Diseño de contenidos</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -74,8 +81,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Moderacion</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -83,8 +92,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Publicidad online</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -92,8 +103,10 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <div>
+          <img src="" alt="" />
           <h4>Reportes de publicidad online</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat

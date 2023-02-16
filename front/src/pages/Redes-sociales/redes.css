@@ -96,6 +96,7 @@
 
 .rs-mobilePhone {
   position: absolute;
+  bottom: -265px;
   width: 300px;
   z-index: 3;
 }
@@ -129,4 +130,28 @@
   letter-spacing: 20px;
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.rs-section4 {
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.rs-section4 div {
+  justify-content: space-around;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.rs-section4 hr {
+  margin-bottom: 100px;
 }

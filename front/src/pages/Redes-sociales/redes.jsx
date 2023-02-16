@@ -48,7 +48,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-          <hr />
+         
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -60,7 +60,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-          <hr />
+         
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -73,7 +73,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-          <hr />
+          
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -85,7 +85,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-          <hr />
+         
         </div>
         
         <div className="rs-Section4-cards">
@@ -98,7 +98,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-          <hr />
+          
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -110,7 +110,6 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
-        <hr />
         </div>
         <hr />
         <div className="rs-Section4-cards">

@@ -11,23 +11,23 @@ const Footer = () => {
   };
 
   return (
-    <footer>
+    <footer className="footerContainer">
       <div className="suscribe">
-        <div className="text">QUIERO RECIBIR INFO</div>
-        <div className="formuSuscribe">
-          <form onSubmit={handleSubmit}>
-            <input
-              className="inputSuscribe"
-              type="email"
-              placeholder="E-mail"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <button type="submit" className="btnSuscribe">
-              Subscribite
-            </button>
-          </form>
-        </div>
+        <form className="formuSuscribe" onSubmit={handleSubmit}>
+          <div className="text">
+            <p>QUIERO RECIBIR INFO</p>
+          </div>
+          <input
+            className="inputSuscribe"
+            type="email"
+            placeholder="E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button type="submit" className="btnSuscribe">
+            Subscribite
+          </button>
+        </form>
       </div>
       <div className="copyright">
         <p>©Copyright Carites Web . 2022</p>

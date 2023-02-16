@@ -4,14 +4,14 @@ import "./redes.css";
 const RedesSociales = () => {
   return (
     <>
-      <div className="section1">
+      <div className="rs-section1">
         <h4>COMO TE PODEMOS AYUDAR EN</h4>
         <h1>Redes Sociales</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <button>SOLICITA MAS INFO</button>
       </div>
-      <div className="section2">
-        <div className="bloqueDeTexto">
+      <div className="rs-section2">
+        <div className="rs-bloqueDeTexto">
           <h2>Generar un mundo sin Spam</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
@@ -20,21 +20,21 @@ const RedesSociales = () => {
             Suscipit eligendi qui obcaecati.
           </p>
         </div>
-        <div className="bloqueImagenes">
+        <div className="rs-bloqueImagenes">
           <img
             src="CirculoDeCirculos.png"
             alt="Fondo Decorativo"
-            className="circuloDeCirculos3"
+            className="rs-circuloDeCirculos3"
           />
           <img
             src="redesSociales-mobile.png"
             alt="redes sociales mobile"
-            className="mobilePhone"
+            className="rs-mobilePhone"
           />
         </div>
       </div>
-      <div className="section3">
-        <div className="cuadroDelMedio2">
+      <div className="rs-section3">
+        <div className="rs-cuadroDelMedio2">
           <h3>PROCESO DE TRABAJO</h3>
         </div>
       </div>
@@ -48,6 +48,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -59,10 +60,12 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <hr />
         <div className="rs-Section4-cards">
           <img src="../N°3auditoria.png" alt="" className="rs-section4-img" />
+          <img src="" alt="" />
           <h3>Redaccion creativa</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
@@ -70,6 +73,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <hr />
         <div className="rs-Section4-cards">
@@ -81,6 +85,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         
         <div className="rs-Section4-cards">
@@ -93,6 +98,7 @@ const RedesSociales = () => {
             laudantium error accusamus delectus repellat consectetur
             consequuntur necessitatibus harum non.
           </p>
+          <hr />
         </div>
         <hr />
         <div className="rs-Section4-cards">

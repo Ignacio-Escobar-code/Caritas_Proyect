@@ -4,7 +4,7 @@ import "./auditoria.css";
 const Auditoria = () => {
   return (
     <>
-      <div className="bloqueHead">
+      <div className="audi-bloqueHead">
         <h3>AUDITORIA DE TU</h3>
         <h1>Ecosistema Digital</h1>
         <p>
@@ -14,8 +14,8 @@ const Auditoria = () => {
         </p>
         <button type="submit">SOLICITA MAS INFO</button>
       </div>
-      <div className="bloqueHead2">
-        <div className="bloqueDeTexto">
+      <div className="audi-bloqueHead2">
+        <div className="audi-bloqueDeTexto">
           <h2>¿Qué incluye la auditoria?</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
@@ -24,28 +24,32 @@ const Auditoria = () => {
             iste molestias?
           </p>
         </div>
-        <div className="bloqueImagenes">
+        <div className="audi-bloqueImagenes">
           <img
             src="Icon-bigLupa.png"
             alt="Imagen ilustrativa Lupa"
-            className="lupaGrande"
+            className="audi-lupaGrande"
           />
           <img
             src="CirculoDeCirculos.png"
             alt="Fondo Decorativo"
-            className="circuloDeCirculos2"
+            className="audi-circuloDeCirculos2"
           />
         </div>
       </div>
-      <div className="cuadroDelMedio">
+      <div className="audi-cuadroDelMedio">
         <div>
           <h3>PROCESO DE TRABAJO</h3>
         </div>
       </div>
-      <div className="contenidoDelMedio">
+      <div className="audi-contenidoDelMedio">
         <div>
-          <img src="N°1Auditoria.png" alt="numero1" className="numerosG" />
-          <img src="icon-atraccion.png" alt="atraccion" className="dibujosG" />
+          <img src="N°1Auditoria.png" alt="numero1" className="audi-numerosG" />
+          <img
+            src="icon-atraccion.png"
+            alt="atraccion"
+            className="audi-dibujosG"
+          />
           <h3>Atraccion</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore,
@@ -55,11 +59,11 @@ const Auditoria = () => {
         </div>
         <hr />
         <div>
-          <img src="N°2Auditoria.png" alt="numero2" className="numerosG" />
+          <img src="N°2Auditoria.png" alt="numero2" className="audi-numerosG" />
           <img
             src="icon-interaccion.png"
             alt="interaccion"
-            className="dibujosG"
+            className="audi-dibujosG"
           />
           <h3>Interaccion</h3>
           <p>
@@ -70,11 +74,11 @@ const Auditoria = () => {
         </div>
         <hr />
         <div>
-          <img src="N°3Auditoria.png" alt="numero3" className="numerosG" />
+          <img src="N°3Auditoria.png" alt="numero3" className="audi-numerosG" />
           <img
             src="icon-conversion.png"
             alt="conversion"
-            className="dibujosG"
+            className="audi-dibujosG"
           />
           <h3>Conversion</h3>
           <p>
@@ -85,11 +89,11 @@ const Auditoria = () => {
         </div>
         <hr />
         <div>
-          <img src="N°4Auditoria.png" alt="numero4" className="numerosG" />
+          <img src="N°4Auditoria.png" alt="numero4" className="audi-numerosG" />
           <img
             src="icon-fidelizacion.png"
             alt="fidelizacion"
-            className="dibujosG"
+            className="audi-dibujosG"
           />
           <h3>Fidelizacion</h3>
           <p>

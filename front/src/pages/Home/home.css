@@ -1,6 +1,6 @@
-.homeSection1 {
+.hm-Section1 {
   background-color: #a6b8a8;
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.homeSection1 button {
+.hm-Section1 button {
   background-color: #77876e;
   color: #ffff;
   width: 200px;
@@ -17,7 +17,7 @@
   border: solid 1.5px black;
   transition: all 0.2s;
 }
-.homeSection1 button:active {
+.hm-Section1 button:active {
   transform: translateY(2px);
   border-width: 2px;
   background-color: #ffffff2c;
@@ -25,57 +25,65 @@
   color: #000000;
 }
 
-.homeSection2 {
+.hm-Section2 {
   background-color: #c4967f;
-  width: 100vw;
+  width: 100%;
   height: 500px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
 }
 
-.contenidoTextual {
+.hm-contenidoTextual {
   display: flex;
   flex-direction: column;
   width: 400px;
-  margin-left: 300px;
+  /* margin-top: 200px;
+  margin-left: 20vw; */
   color: #ffff;
-  position: relative;
-  bottom: 140px;
+  position: absolute;
+  right: 55%;
+  bottom: 160px;
   z-index: 6;
 }
 
-.contenidoTextual h2 {
+.hm-contenidoTextual h2 {
   font-size: 35px;
 }
 
-.laptopImg {
+.hm-containterImgHome {
+  position: absolute;
+  bottom: 550px;
+  left: 50%;
+  background-color: #0000005f;
   width: 600px;
+}
+
+.hm-laptopImg {
+  width: 550px;
   z-index: 5;
   position: absolute;
-  bottom: 120px;
-  left: 720px;
 }
 
-.circuloDeCirculos {
-  width: 400px;
+.hm-circuloDeCirculos {
+  width: 324px;
   z-index: 4;
   position: absolute;
-  left: 600px;
-  bottom: 0;
+  top: 225px;
 }
 
-.fatherTarjetas {
+.hm-fatherTarjetas {
   display: flex;
   justify-content: center;
   align-items: last baseline;
   position: relative;
   width: auto;
   height: 600px;
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
-.containerTarjetas {
+.hm-containerTarjetas {
   position: absolute;
   z-index: 6;
   bottom: 50px;
@@ -87,7 +95,7 @@
   column-gap: 100px;
 }
 
-.tarjetasConBtn {
+.hm-tarjetasConBtn {
   background-color: #e9cfc0;
   border: solid 1.5px #000000;
   border-radius: 20px;
@@ -99,11 +107,11 @@
   position: relative;
 }
 
-.tarjetasConBtn:hover {
+.hm-tarjetasConBtn:hover {
   border: 5px #f5eb5f96;
 }
 
-.tarjetasConBtn button {
+.hm-tarjetasConBtn button {
   position: absolute;
   bottom: 10px;
   background-color: transparent;

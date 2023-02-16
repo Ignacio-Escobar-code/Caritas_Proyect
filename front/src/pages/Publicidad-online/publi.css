@@ -1,0 +1,98 @@
+.publi-Section1 {
+    color: #fff;
+    background-color: #a6b8a8;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .publi-Section1 button {
+    background-color: #77876e;
+    color: #ffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    border: solid 1.5px black;
+    transition: all 0.2s;
+  }
+  .publi-Section1 button:active {
+    transform: translateY(2px);
+    border-width: 2px;
+    background-color: #ffffff2c;
+    width: 190px;
+    color: #000000;
+  }
+  
+  .publi-Section2 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .publi-ads {
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .fb{
+    margin-right: 0px;
+  }
+  .gg {
+    margin-left: 0px;
+  }
+  .publi-ads img {
+    padding: 10px 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .publi-Section2 hr {
+   height: 300px;
+   margin-top:100px;
+   margin:100px
+
+  }
+  .publi-ads button {
+        background-color: #C4967F;
+        border: solid 1.5px #000000;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        margin: 20px 70px;
+
+  }
+
+  .publi-Section3 {
+  background-color: #c4967f;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  }
+
+  .publi-Section3-Info {
+
+    color:#3B5049;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    
+  }
+  .publi-Section3-Info h2 {
+    margin-bottom:0px;
+
+  }
+  .publi-Section3-img img {
+    max-width:400px;
+    width:100%;
+    justify-content: flex-start;
+  }

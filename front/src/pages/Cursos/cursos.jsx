@@ -4,20 +4,31 @@ import "./cursos.css";
 const Cursos = () => {
   return (
     <>
-      <div>
-        <h5>APRENDE CON</h5>
+      <div className="curso-Section1">
+        <span>APRENDE CON</span>
         <h1>Cursos de marketing</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <button>SOLICITA MAS INFO</button>
       </div>
+      <div className="curso-Section2">
       <div>
-        <h4>Emprender con exito</h4>
+        <img src="../tilde.png" alt="" />
+        <h4>Emprender
+           con exito</h4>
+           <button>MAS INFO</button>
       </div>
       <div>
-        <h4>Instagram para marcas</h4>
+<img src="../tilde.png" alt="" />
+        <h4>Instagram
+          para marcas</h4>
+          <button>MAS INFO</button>
       </div>
       <div>
-        <h4>Community manager</h4>
+        <img src="../tilde.png" alt="" />
+        <h4>Community
+           manager</h4>
+           <button>MAS INFO</button>
+      </div>
       </div>
     </>
   );

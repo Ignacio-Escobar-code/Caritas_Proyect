@@ -1,57 +1,61 @@
 .curso-Section1 {
-    background-color: #a6b8a8;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-  }
-  .curso-Section1 span, h1 {
-    color: #fff;
-    margin: 0 auto;
-  }
-  .curso-Section1 button {
-    background-color: #77876e;
-    color: #ffff;
-    width: 200px;
-    height: 50px;
-    border-radius: 35px;
-    border: solid 1.5px black;
-    transition: all 0.2s;
-  }
-  .curso-Section1 button:active {
-    transform: translateY(2px);
-    border-width: 2px;
-    background-color: #ffffff2c;
-    width: 190px;
-    color: #000000;
-  }
+  background-color: #a6b8a8;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.curso-Section1 span {
+  color: #fff;
+  margin: 0 auto;
+}
 
-  .curso-Section2 {
-    margin: 50px auto;
-    max-width: 900px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    text-align: center;
-    
-  }
+.curso-Section1 h1 {
+  color: #fff;
+  margin: 0 auto;
+}
 
-  .curso-Section2 h4 {
-    margin:10px auto;
-    
-    max-width:120px;
-    color:#C4967F;
-    font-size:20px;
-  }
-  .curso-Section2 button{
-    background-color: #C4967F;
-    border: solid 1.5px #000000;
-    padding: 5px;
-    font-weight: bold;
-    width: 100%;
+.curso-Section1 button {
+  background-color: #77876e;
+  color: #ffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  border: solid 1.5px black;
+  transition: all 0.2s;
+}
+.curso-Section1 button:active {
+  transform: translateY(2px);
+  border-width: 2px;
+  background-color: #ffffff2c;
+  width: 190px;
+  color: #000000;
+}
 
-  }
+.curso-Section2 {
+  margin: 50px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.curso-Section2 h4 {
+  margin: 10px auto;
+
+  max-width: 120px;
+  color: #c4967f;
+  font-size: 20px;
+}
+.curso-Section2 button {
+  background-color: #c4967f;
+  border: solid 1.5px #000000;
+  padding: 5px;
+  font-weight: bold;
+  width: 100%;
+}

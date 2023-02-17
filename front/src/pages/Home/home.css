@@ -64,6 +64,7 @@
   width: 550px;
   z-index: 5;
   position: absolute;
+  right: 0;
 }
 
 .hm-circuloDeCirculos {
@@ -92,7 +93,7 @@
   grid-template-columns: repeat(3, 200px);
   grid-template-rows: repeat(2, 300px);
   row-gap: 70px;
-  column-gap: 100px;
+  column-gap: 150px;
 }
 
 .hm-tarjetasConBtn {
@@ -119,4 +120,7 @@
   height: 30px;
   border: solid 1.2;
   color: #000000;
+}
+
+@media (max-width: 640px) {
 }

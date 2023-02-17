@@ -1,0 +1,42 @@
+.cont-container {
+  width: 100%;
+  height: 500px;
+  background-color: #c4967f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-container h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.cont-container h5 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.cont-img-container {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #a6b8a8;
+  position: relative;
+}
+
+.cont-globo-carites {
+  position: absolute;
+  width: 400px;
+  right: 54%;
+  bottom: 0%;
+}
+
+.cont-circulos {
+  position: absolute;
+  width: 200px;
+  right: 47%;
+  bottom: 64%;
+}

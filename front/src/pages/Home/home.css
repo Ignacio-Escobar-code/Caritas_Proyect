@@ -123,4 +123,7 @@
 }
 
 @media (max-width: 640px) {
+  .hm-Section1 button {
+    width: 500px;
+  }
 }
